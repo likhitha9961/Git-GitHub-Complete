@@ -60,9 +60,7 @@ Git is a tool/software that runs on your system.
 
 
 ✅ Step 1: Verify Installation
-
 Check if Git is installed:
-
 git --version
 
 ✅ Example Output:
