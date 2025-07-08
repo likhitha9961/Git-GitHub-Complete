@@ -2,49 +2,27 @@
 
 ```bash
 ✅ Add
-
 Add files to the staging area:
-
 git add <file-name>
-
 ✅ Commit
-
 Save changes to the repository:
-
 git commit -m "your commit message"
-
 🚀 Push
-
 Upload changes from your local repo to GitHub:
-
 git push origin main
-
 🏗️ Initialize a New Repo & Push
-
 1️⃣ Initialize Git in a folder:
-
-git init
-
+   git init
 2️⃣ Add remote repository:
-
-git remote add origin <repo-link>
-
+   git remote add origin <repo-link>
 3️⃣ Verify remote:
-
-git remote -v
-
+   git remote -v
 4️⃣ Rename branch to main:
-
-git branch -M main
-
+   git branch -M main
 5️⃣ Push to GitHub:
-
 git push -u origin main
-
 💡 -u: Sets upstream so next time you can just use git push.
-
 🌿 Git Branches
-
 If multiple developers work on different features, use branches.
 
 🛠 Branch Commands
@@ -61,63 +39,39 @@ If multiple developers work on different features, use branches.
 🔀 Merging Branches
 
 ✅ Merge with Commands
-
 Switch to the main branch:
-
-
 git checkout main
-
 Merge feature branch into main:
-
-
 git merge <feature-branch>
 
 ⚔️ Resolving Merge Conflicts
-
 Merge conflicts happen when two people change the same line of a file.
 
 Git shows:
-
 <<<<<<< HEAD
-
 Your changes here
-
 =======
-
 Their changes here
-
 >>>>>>> feature-branch
 
 ✅ Fix conflict, mark resolved:
-
 git add <file>
-
 git commit -m "Resolved merge conflict"
 
 🍴 GitHub Fork
 
 A fork is a copy of someone else’s repository into your GitHub account.
-
 ✅ Why Fork?
-
 Experiment safely.
-
 Suggest changes via Pull Requests.
 
 🖇️ Fork Workflow
-
 1️⃣ Click Fork on GitHub.
-
 2️⃣ Clone your fork locally:
-
-git clone <your-fork-link>
-
+      git clone <your-fork-link>
 3️⃣ Make changes.
-
 4️⃣ Push changes:
-
-git push origin main
-
+      git push origin main
 5️⃣ Submit a Pull Request to the original repo.
 
 🥊 Merge vs Fork
