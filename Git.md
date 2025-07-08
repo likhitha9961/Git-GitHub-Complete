@@ -27,7 +27,9 @@ Git is a **Distributed Version Control System (DVCS)**.
 You save files like:
 
 project_v1.docx
+
 project_v2_final.docx
+
 project_v3_really_final.docx
 
 😣 It’s confusing and you might overwrite files accidentally.  
@@ -137,11 +139,9 @@ git status
 
 ✅ Shows:
 
-Which files are untracked.
-
-Which files are modified.
-
-Which files are staged for commit.
+- Which files are untracked.
+- Which files are modified.
+- Which files are staged for commit.
 
 🎨 Example Output:
 
