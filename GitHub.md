@@ -77,13 +77,17 @@ git clone https://github.com/username/repo-name.git
 ✅ This copies the GitHub repo into your local folder.
 
 🔥 Git Status
+
 Shows the current status of files in your local repo.
 
 git status
 
 ✅ Untracked: New files that Git doesn’t yet track.
+
 ✅ Modified: Files have been changed.
+
 ✅ Staged: Files are ready to be committed (added but not yet committed).
+
 ✅ Unmodified: No changes in the file.
 
 🎨 Stages in Git
@@ -95,6 +99,7 @@ git status
 | **Unmodified** | File has no changes                     |
 
 🖥️ Example Workflow
+
 Create or clone a repository.
 
 Make changes to files in VS Code.
@@ -102,10 +107,13 @@ Make changes to files in VS Code.
 Run git status to check file changes.
 
 Add files:
+
 git add <filename>
 
 Commit changes:
+
 git commit -m "Your commit message"
 
 Push to GitHub:
+
 git push origin main
