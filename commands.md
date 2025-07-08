@@ -1,5 +1,6 @@
-✍️ Add, Commit & Push
+### ✍️ Add, Commit & Push
 
+```bash
 ✅ Add
 
 Add files to the staging area:
@@ -138,3 +139,5 @@ git push origin main
 | `git checkout -b <branch-name>`     | Create and switch to a new branch.         |
 | `git merge <branch-name>`           | Merge branch into current branch.          |
 | `git pull origin main`              | Pull changes from GitHub to local machine. |
+---
+```
