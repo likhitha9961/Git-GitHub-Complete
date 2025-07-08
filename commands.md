@@ -1,26 +1,37 @@
 ✍️ Add, Commit & Push
+
 ✅ Add
+
 Add files to the staging area:
 
 git add <file-name>
+
 ✅ Commit
+
 Save changes to the repository:
 
 git commit -m "your commit message"
+
 🚀 Push
+
 Upload changes from your local repo to GitHub:
 
 git push origin main
+
 🏗️ Initialize a New Repo & Push
+
 1️⃣ Initialize Git in a folder:
 
 git init
+
 2️⃣ Add remote repository:
 
 git remote add origin <repo-link>
+
 3️⃣ Verify remote:
 
 git remote -v
+
 4️⃣ Rename branch to main:
 
 git branch -M main
