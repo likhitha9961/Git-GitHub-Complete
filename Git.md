@@ -26,12 +26,9 @@ Git is a **Distributed Version Control System (DVCS)**.
 ❌ **Without Git:**  
 You save files like:
 
-project_v1.docx
-
-project_v2_final.docx
-
-project_v3_really_final.docx
-
+- project_v1.docx
+- project_v2_final.docx
+- project_v3_really_final.docx
 😣 It’s confusing and you might overwrite files accidentally.  
 
 ✅ **With Git:**  
@@ -55,9 +52,9 @@ You can restore 🕰️ or compare any version easily.
 
 Git is a tool/software that runs on your system.  
 
-- **Windows:** Install [Git Bash](https://git-scm.com/downloads)  
-- **Mac:** Use the built-in Terminal.  
-- **Linux:** Install via package manager:  
+ **Windows:** Install [Git Bash](https://git-scm.com/downloads)  
+ **Mac:** Use the built-in Terminal.  
+ **Linux:** Install via package manager:  
  
   sudo apt install git
 
