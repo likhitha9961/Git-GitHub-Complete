@@ -4,12 +4,15 @@
 ✅ Add
 Add files to the staging area:
 git add <file-name>
+
 ✅ Commit
 Save changes to the repository:
 git commit -m "your commit message"
+
 🚀 Push
 Upload changes from your local repo to GitHub:
 git push origin main
+
 🏗️ Initialize a New Repo & Push
 1️⃣ Initialize Git in a folder:
    git init
@@ -22,6 +25,7 @@ git push origin main
 5️⃣ Push to GitHub:
 git push -u origin main
 💡 -u: Sets upstream so next time you can just use git push.
+
 🌿 Git Branches
 If multiple developers work on different features, use branches.
 
@@ -41,6 +45,7 @@ If multiple developers work on different features, use branches.
 ✅ Merge with Commands
 Switch to the main branch:
 git checkout main
+
 Merge feature branch into main:
 git merge <feature-branch>
 
@@ -59,8 +64,8 @@ git add <file>
 git commit -m "Resolved merge conflict"
 
 🍴 GitHub Fork
-
 A fork is a copy of someone else’s repository into your GitHub account.
+
 ✅ Why Fork?
 Experiment safely.
 Suggest changes via Pull Requests.
