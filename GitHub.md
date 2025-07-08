@@ -107,13 +107,10 @@ Make changes to files in VS Code.
 Run git status to check file changes.
 
 Add files:
-
 git add <filename>
 
 Commit changes:
-
 git commit -m "Your commit message"
 
 Push to GitHub:
-
 git push origin main
