@@ -88,4 +88,27 @@ logs/
 *.notes
 pattern*/
 
+Set global ignore file:
+git config --global core.excludesfile [file]
+
+📝 Quick Commands Reference
+| Command                    | Description                      |
+| -------------------------- | -------------------------------- |
+| `git init`                 | Initialize new Git repository    |
+| `git clone <repo>`         | Clone remote repository          |
+| `git status`               | Show file status                 |
+| `git add <file>`           | Stage file for commit            |
+| `git commit -m "msg"`      | Save changes with a message      |
+| `git push origin main`     | Push changes to GitHub           |
+| `git pull origin main`     | Pull latest changes              |
+| `git checkout -b <branch>` | Create & switch to a new branch  |
+| `git merge <branch>`       | Merge branch into current branch |
+| `git log`                  | View commit history              |
+| `git stash`                | Temporarily save changes         |
+| `git cherry-pick <commit>` | Apply specific commit            |
+| `git revert <commit>`      | Undo a commit safely             |
+| `git tag <tag-name>`       | Mark a point in history          |
+
+
+
 
